@@ -26,7 +26,7 @@ An IoT-based smart room system built using the **ESP32** microcontroller. This p
 
 ---
 
-## 🧪 Software & Libraries
+## 💻 Software & Libraries
 
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - Libraries used:
