@@ -1,3 +1,44 @@
 # SmartRoom-Controller
-Smart Room Climate Monitoring and Fan Control System with ESP32
-This project utilizes an ESP32 microcontroller connected to a mobile dashboard to monitor and control the room's climate in real time. It displays live temperature and humidity readings, and controls cooling fans via the MQTT protocol. Users can operate the fans manually or enable an automatic mode that activates them when the temperature or humidity exceeds predefined thresholds.
+
+An IoT-based smart room system built using the **ESP32** microcontroller. This project enables real-time monitoring and control of room **temperature** and **humidity** via a **mobile dashboard** using **MQTT protocol**. It supports both **manual** and **automatic fan control** based on a user-defined temperature threshold.
+
+---
+
+## 🚀 Features
+
+- 🌡️ Real-time Temperature & Humidity Monitoring (DHT11 sensor)
+- 🌬️ Cooling Fan Control (Auto & Manual Modes)
+- 📲 Mobile Dashboard Integration (MQTT-compatible apps like MQTT Dash or IoT MQTT Panel)
+- 🔁 Automatic operation based on a configurable temperature limit
+- 📡 Communication via Wi-Fi and MQTT (using public broker)
+
+---
+
+## 🧰 Hardware Used
+
+- ESP32 Dev Module (30-pin)
+- DHT11 Temperature & Humidity Sensor
+- DC Fan
+- NPN Transistor (e.g., 2N2222 or 2N3904) for fan control
+- Flyback diode
+- Power supply for fan
+- Resistors and breadboard
+
+---
+
+## 🧪 Software & Libraries
+
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- Libraries used:
+  - `WiFi.h`
+  - `PubSubClient.h`
+  - `DHT.h`
+
+---
+
+## 🗂️ Project Structure
+
+```plaintext
+SmartRoom-Controller/
+├── Project.ino             # Main Arduino code
+├── README.md               # This file
