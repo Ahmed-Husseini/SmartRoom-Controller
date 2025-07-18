@@ -22,7 +22,7 @@ DHT dht(DHTPIN, DHTTYPE);
 int ledChannel;
 
 // MQTT broker settings
-const char broker[] = "broker.emqx.io";
+const char broker[] = "broker.emqx.io"; // Using free public broker
 const int port = 1883;
 
 // Variables for time and environment readings
