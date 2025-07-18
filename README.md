@@ -20,8 +20,8 @@ An IoT-based smart room system built using the **ESP32** microcontroller. This p
 - DHT11 Temperature & Humidity Sensor
 - DC Fan
 - L289 H-Bridge Driver Module
-- Flyback diode
 - Power supply for fan
+- Flyback diode
 - Resistors and breadboard
 
 ---
